@@ -1,0 +1,12 @@
+{
+  "name": "campus360",
+  "version": "1.0.0",
+  "description": "CAMPUS360 University Management System",
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "backend": "npm run dev --prefix backend",
+    "frontend": "npm run dev --prefix frontend",
+    "create-admin": "npm run create-admin --prefix backend",
+    "seed": "npm run seed --prefix backend"
+  }
+}
